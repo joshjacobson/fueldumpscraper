@@ -19,13 +19,18 @@ group :development do
   gem 'guard-livereload'
   gem 'sqlite3'
   gem 'debugger'
+
+
 end
+
+gem 'capistrano'
+gem 'rvm-capistrano'
 
 group :production do
   gem 'memcachier'
   gem 'pg'
 end
-
+gem 'rake'
 gem 'money'
 gem 'google_currency'
 gem 'simple_form', '>= 3.0.0.rc'
